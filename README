@@ -1,0 +1,24 @@
+Zip: zip -r Jade-Collins-HW4.zip cs250 -x cs250/hw1/\* -x cs250/hw2/\* -x cs250/hw3/\* -x cs250/ec/\*
+
+BinaryTree:
+    java cs250.hw4.BinaryTree <filename>
+    Compile: javac cs250/hw4/BinaryTree.java
+    Run: java cs250.hw4.BinaryTree cs250/hw4/data.txt
+
+BTree:
+    java cs250.hw4.BTree <filename>
+    Compile: javac cs250/hw4/BTree.java
+    Run: java cs250.hw4.BTree cs250/hw4/data.txt
+
+TreeStructure:
+    Compile: javac cs250/hw4/TreeStructure.java
+
+
+This program has two classes: BinaryTree and BTree
+It also has one interface: TreeStructure
+
+BinaryTree runs a program to create a binary tree using multiple implemented methods
+from the TreeStructure class including insert, remove, get, findMaxDepth, and findMinDepth. 
+BTree also does this but for a btree. Insert inserts a value into the tree and notes what
+time it was inserted at, remove removes a value, get gets the time a value was inserted at,
+findMaxDepth finds the max depth of the tree, findMinDepth finds the min depth of the tree.
